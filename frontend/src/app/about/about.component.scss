@@ -1,0 +1,10 @@
+.about-containter{
+    display: flex;
+    flex-wrap:wrap;
+    font-weight: bold;
+    margin-left: 20px;
+    gap: 20px;
+    .about-element{
+        width:100%;
+    }
+}

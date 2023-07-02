@@ -1,0 +1,41 @@
+.navigation-containter{
+    display: flex;
+    .my-name-top{
+        display: flex;
+        align-items: center;
+        min-width: 15%;
+        color:red;
+    }
+}
+
+.main-navigation{
+    display: flex;
+    min-width: 85%;
+    .center-buttons{
+        display: flex;
+        min-width: 70%;
+        justify-content: center;
+        height: 30px;
+        gap:20px;
+
+
+    }
+    .right-buttons{
+        display: flex;
+        margin-left:auto;
+        // justify-content: flex-end;
+    }
+
+}
+.donate-div{
+    display: flex;
+
+    margin-left:auto;
+    background-color: blue;
+}
+.content-container{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}

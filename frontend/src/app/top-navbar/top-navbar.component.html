@@ -1,0 +1,31 @@
+<div class="navigation-containter">
+  <div class="my-name-top">
+    K. Kowal
+  </div>
+<div class="main-navigation">
+  <div class="center-buttons">
+    <div>
+       <button mat-button (click)=loadPortfolioComponent()>Portfolio</button> 
+    </div>
+    <div> 
+      <button mat-button (click)=loadAboutComponent()>About</button> 
+    </div>
+    <div> 
+      <button mat-button (click)=loadComponent()>Contact</button> 
+    </div>
+  </div>
+  <div class="right-buttons">
+    <button mat-button (click)=loadComponent()>Instagram</button> 
+  </div>
+</div>
+</div>
+<div class="content-container"> 
+<img src="/assets/fotoskalowane.jpg">
+<ng-container #container></ng-container>
+
+</div>
+<!-- <div class="donate-div">
+  Patronite
+  <button (click)=loadComponent()>Patronite button</button> 
+</div> -->
+<router-outlet></router-outlet>
