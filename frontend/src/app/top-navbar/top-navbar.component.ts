@@ -3,6 +3,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 import { PortfolioComponent } from '../portfolio/portfolio.component';
 import { AdDirective } from '../directives/ad.directive';
 import { AboutComponent } from '../about/about.component';
+import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-top-navbar',
@@ -30,6 +31,12 @@ export class TopNavbarComponent {
     this.container.clear();
     console.log('laduje portfolio')
     const widgetOneRef = this.container.createComponent(AboutComponent);
+    // widgetOneRef.setInput('name', 'profanis');
+  }
+  loadContactComponent(){
+    this.container.clear();
+    console.log('laduje kontakt')
+    const widgetOneRef = this.container.createComponent(ContactComponent);
     // widgetOneRef.setInput('name', 'profanis');
   }
 }
